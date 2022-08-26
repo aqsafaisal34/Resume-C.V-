@@ -1,0 +1,35 @@
+.root{
+    --dark: #354f74;
+    --light: #ffffff;
+    --font: #b4bdcc;
+
+}
+body{
+    background-color: #354f74;  
+}
+.container{
+    background-color: #ffffff;
+    color: black;
+    width: 60%;
+    margin: auto;
+    padding: 3px 13px;
+    
+}
+h1{
+    font-weight: 300;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.header{
+    text-align: center;
+}
+h2{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #b4bdcc;   
+}
+@media only screen and (max-width: 400px) {
+    .container {
+      width: fit-content;
+    }
+  }
